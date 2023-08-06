@@ -1,0 +1,27 @@
+body{
+    background: url("../img/1.jpg") 0 0/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.wather__container{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    width: 300px;
+    width: 200px;
+    
+}
+.cart{
+    color: rgb(255, 255, 255);
+
+}
+.city__name{
+    font-size: 24px;
+    color: rgb(3, 200, 115);
+}
