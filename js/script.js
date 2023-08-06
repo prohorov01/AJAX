@@ -12,6 +12,6 @@ fetch(
     document.querySelector(".deg").textContent = data.wind.deg;
     document.querySelector(
       ".icon"
-    ).innerHTML = `<img src="http://openweathermap.org/img/w/${data.weather[0]["icon"]}.png">`;
+    ).innerHTML = `<img src="https://openweathermap.org/img/w/${data.weather[0]["icon"]}.png">`;
   })
   .catch((error) => console.log("error", error));
